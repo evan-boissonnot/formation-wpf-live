@@ -1,0 +1,26 @@
+﻿<Window x:Class="DecouverteBindingAvecSlider.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DecouverteBindingAvecSlider"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Slider x:Name="sliderSuper" Maximum="100" TickFrequency="2" Grid.ColumnSpan="2" ></Slider>
+
+            <Label Content="coucou" Grid.Row="1" Grid.Column="0" FontSize="{ Binding ElementName=sliderSuper, Path=Value}"></Label>
+            <Image Source="pack://application:,,,/Images/importance vision.png"  Grid.Row="1" Grid.Column="1" Width="{ Binding ElementName=sliderSuper, Path=Value}" ></Image>
+        </Grid>
+    </Grid>
+</Window>

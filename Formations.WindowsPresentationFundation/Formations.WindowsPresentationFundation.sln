@@ -11,6 +11,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonSecondProjetTravailImage
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonTroisemeProjetWpfTravailStyleEtGrille", "MonTroisemeProjetWpfTravailStyleEtGrille\MonTroisemeProjetWpfTravailStyleEtGrille.csproj", "{2464D019-BA79-42FF-AA8F-40D97CA689E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetroStyleDecouverte", "MetroStyleDecouverte\MetroStyleDecouverte.csproj", "{A1DDFEE6-D842-46BF-9DF2-BE8043768462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecouverteBinding", "DecouverteBinding\DecouverteBinding.csproj", "{D57402FC-F117-47C9-A531-D8DFEFDEA629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecouverteBindingAvecSlider", "DecouverteBindingAvecSlider\DecouverteBindingAvecSlider.csproj", "{EDDDDF2E-E579-4CCB-A123-CD04BC8F28EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravailWpfAvecEntities", "TravailWpfAvecEntities\TravailWpfAvecEntities.csproj", "{94873F1F-FD9E-4EE6-8D53-EB06395597C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarryPotter.Core.Data", "HarryPotter.Core.Data\HarryPotter.Core.Data.csproj", "{580BE3C7-D9C6-4CD9-8DF7-4FA1E8F5ABE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +43,26 @@ Global
 		{2464D019-BA79-42FF-AA8F-40D97CA689E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2464D019-BA79-42FF-AA8F-40D97CA689E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2464D019-BA79-42FF-AA8F-40D97CA689E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1DDFEE6-D842-46BF-9DF2-BE8043768462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1DDFEE6-D842-46BF-9DF2-BE8043768462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1DDFEE6-D842-46BF-9DF2-BE8043768462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1DDFEE6-D842-46BF-9DF2-BE8043768462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D57402FC-F117-47C9-A531-D8DFEFDEA629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D57402FC-F117-47C9-A531-D8DFEFDEA629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D57402FC-F117-47C9-A531-D8DFEFDEA629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D57402FC-F117-47C9-A531-D8DFEFDEA629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDDDDF2E-E579-4CCB-A123-CD04BC8F28EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDDDDF2E-E579-4CCB-A123-CD04BC8F28EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDDDDF2E-E579-4CCB-A123-CD04BC8F28EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDDDDF2E-E579-4CCB-A123-CD04BC8F28EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94873F1F-FD9E-4EE6-8D53-EB06395597C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94873F1F-FD9E-4EE6-8D53-EB06395597C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94873F1F-FD9E-4EE6-8D53-EB06395597C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94873F1F-FD9E-4EE6-8D53-EB06395597C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{580BE3C7-D9C6-4CD9-8DF7-4FA1E8F5ABE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{580BE3C7-D9C6-4CD9-8DF7-4FA1E8F5ABE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{580BE3C7-D9C6-4CD9-8DF7-4FA1E8F5ABE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{580BE3C7-D9C6-4CD9-8DF7-4FA1E8F5ABE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
